@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">RedCloud</string>
+
+    <string name="login_btn_text">sign in</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="msg_loading">Please wait...</string>
+    <string name="action_setting_text">Account Settings</string>
+    <string name="action_logout_text">Logout</string>
+    <string name="action_add_memo">New Memo</string>
+    
+    <string name="setup_full_name_hint_text">Full Name</string>
+    <string name="setup_user_name_hint_text">User Name</string>
+    <string name="setup_btn_name_text">Save Account Settings</string>
+
+    <string name="memo_title_hint">Title</string>
+    <string name="memo_tagline_hint">Tagline</string>
+    <string name="memo_description_hint">Description</string>
+    <string name="memo_location_hint">Location</string>
+    <string name="new_memo_btn_hint">Save</string>
+
+    <string name="login_text">LOGIN</string>
+    <string name="register_text">REGISTER</string>
+    <string name="login_reg_btn_text">Register a new Account</string>
+    <string name="reg_btn_text">Create an Account</string>
+    <string name="reg_login_text">Already have Account? Log in</string>
+
+    <string name="page_1">Memos</string>
+    <string name="page_2">Favourites</string>
+
+    <array name="list_icons_selected">
+        <item>@drawable/ic_home_black_24dp</item>
+        <item>@drawable/ic_favorite_black_24dp</item>
+        <item>@drawable/ic_exit_to_app_black_24dp</item>
+    </array>
+    <string-array name="list_options">
+        <item>Memos</item>
+        <item>Favourite</item>
+        <item>Logout</item>
+    </string-array>
+</resources>

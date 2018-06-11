@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF1744</color>
+    <color name="colorPrimaryDark">#D50000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorGrayTransparent">#87a6a6a6</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="colorDarkGray">#6c6c6c</color>
+    <color name="gray_bg">#ffe5e5e5</color>
+
+    <color name="whiteTransparentHalf">#80ffffff</color>
+    <color name="colorGray">#2d2d2d</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#ff000000</color>
+
+
+    <color name="likeBtnGray">#747474</color>
+    <color name="likeBtnAccent">#F44336</color>
+</resources>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "643714795134",
+    "firebase_url": "https://redcloud-d62f2.firebaseio.com",
+    "project_id": "redcloud-d62f2",
+    "storage_bucket": "redcloud-d62f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643714795134:android:53ede9347d6b1454",
+        "android_client_info": {
+          "package_name": "com.spantom.redcloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643714795134-085qqq63fpu3bflgmkflq4mkp8rvm713.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spantom.redcloud",
+            "certificate_hash": "eca7fb68cfb5873c1c68eaac12598e6a9dc53a2e"
+          }
+        },
+        {
+          "client_id": "643714795134-emip6bqmfbup5rk2n95ddencg0ele98p.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "643714795134-emip6bqmfbup5rk2n95ddencg0ele98p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-ZyRq_PL4xMXDsNACl3PWGed_Aank3_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643714795134-emip6bqmfbup5rk2n95ddencg0ele98p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

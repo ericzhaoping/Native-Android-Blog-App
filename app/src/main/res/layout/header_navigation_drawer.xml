@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_header_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true">
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginBottom="8dp">
+        <ImageView
+            android:id="@+id/userCover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:scaleType="centerCrop" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true">
+
+            <com.pkmmte.view.CircularImageView
+                android:id="@+id/userPhoto"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/playstore_icon"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                app:border="true"
+                app:border_color="#fff"
+                app:border_width="4dp"
+                app:shadow="true" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:id="@+id/userFullname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="Zap School"
+                android:maxLines="1"
+                android:shadowColor="@color/colorBlack"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="2.0"
+                android:drawablePadding="5dp"
+                android:layout_toRightOf="@+id/userPhoto"
+                android:layout_above="@+id/userUsername" />
+            <TextView
+                android:textColor="#fff"
+                android:id="@+id/userUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="zapschool@gmail.com"
+                android:maxLines="1"
+                android:shadowColor="@color/colorBlack"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:layout_toRightOf="@+id/userPhoto"
+                android:layout_alignBottom="@+id/userPhoto" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
